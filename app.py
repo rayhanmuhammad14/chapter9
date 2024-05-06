@@ -12,7 +12,7 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-cxn_str = 'your-connection-string'
+cxn_str = 'mongodb+srv://rayhan10915:Iw9flIHrKqSHga5a@learningx.cy1fhy8.mongodb.net'
 client = MongoClient(cxn_str)
 
 db = client.dbsparta_plus_week2
